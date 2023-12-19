@@ -1,1 +1,47 @@
+Diagram for the execution of a software servicing website .
+
++----------------------------------+
+|            Website              |
++----------------------------------+
+| - users: List<User>              |
+| - sessions: List<Session>         |
+| - database: Database              |
++----------------------------------+
+| + login(username: String,        |
+|     password: String): Session   |
+| + logout(sessionId: String): void |
+| + contactPage(): void             |
++----------------------------------+
+
++------------------------+        +---------------------+
+|         User           |        |       Session       |
++------------------------+        +---------------------+
+| - userId: String       |        | - sessionId: String |
+| - username: String     |        | - userId: String    |
+| - password: String     |        | - loginTime: Date   |
+| - email: String        |        +---------------------+
++------------------------+
+
++------------------------+
+|       Database         |
++------------------------+
+| - users: Map<String,   |
+|     User>              |
+| - sessions: Map<String,|
+|     Session>           |
++------------------------+
+| + addUser(user: User): |
+|   void                 |
+| + removeUser(userId:   |
+|   String): void        |
+| + addSession(session:  |
+|   Session): void       |
+| + removeSession(session|
+|   Id: String): void    |
+
+•	Website represents the main application, containing information about users,sessions, and the database.
+•	User represents a website user, with attributes username password .
+•	Session represents a user session, with attributes like sessionid, userid, and logintime.
+•	Database is a component responsible for sorting and managing user information and sessions. It includes method for aadding/removing user and session.
+
 ...
