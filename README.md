@@ -35,11 +35,7 @@ https://github.com/Nishant197/XenonStack_Softwares
 ```
 
 
-## 🔗 Links
 
-- Home Page : https://nishant197.github.io/XenonStack_Softwares
-- Login Page : https://nishant197.github.io/XenonStack_Softwares/login.html
-- Admin Dashboard : https://nishant197.github.io/XenonStack_Softwares/admin.html
 
 
 ## Run Locally
@@ -47,7 +43,7 @@ https://github.com/Nishant197/XenonStack_Softwares
 Clone the project
 
 ```bash
-  git clone https://github.com/Nishant197/XenonStack_Softwares
+  git clone https://github.com/khushboo-9876/Xenon_Stack
 ```
 
 Go to the project directory
@@ -55,40 +51,5 @@ Go to the project directory
 ```bash
   cd my-project
 ```
-
-Open with Live Server 
-
-## Screenshot
-
-### Home Page
-- Home Page
-
-![Home Page](https://raw.githubusercontent.com/Nishant197/XenonStack_Softwares/main/readme/1.png)
-
-- Introduction about Company
-
-![Home Page](https://raw.githubusercontent.com/Nishant197/XenonStack_Softwares/main/readme/2.png)
-
-- Contact Us Form
-
-![Home Page](https://raw.githubusercontent.com/Nishant197/XenonStack_Softwares/main/readme/3.png)
-
-### Login Form
-- Login Page [admin@xenon.com / Xenon@1234]
-![Login Page](https://raw.githubusercontent.com/Nishant197/XenonStack_Softwares/main/readme/4.png)
-
-### Admin Dashboard
-- Admin Dashboard
-
-![Admin Dashboard](https://raw.githubusercontent.com/Nishant197/XenonStack_Softwares/main/readme/5.png)
-
-- Contact Form Data
-
-![Admin Dashboard](https://raw.githubusercontent.com/Nishant197/XenonStack_Softwares/main/readme/6.png)
-
-## Authors
-- [@nishant197](https://github.com/Nishant197)
-
-
 
 
